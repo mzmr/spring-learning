@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 
 import pl.znamirowski.hibernate.demo.entity.Student;
 
-public class UpStudentDemo {
+public class UpdateStudentDemo {
 
 	public static void main(String[] args) {
 		SessionFactory factory = new Configuration()

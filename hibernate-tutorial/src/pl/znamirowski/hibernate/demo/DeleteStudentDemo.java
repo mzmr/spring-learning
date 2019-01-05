@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
 
 import pl.znamirowski.hibernate.demo.entity.Student;
 
-public class DelStudentDemo {
+public class DeleteStudentDemo {
 
 	public static void main(String[] args) {
 		SessionFactory factory = new Configuration()
