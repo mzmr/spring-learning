@@ -8,6 +8,7 @@ import pl.znamirowski.hibernate.demo.entity.Course;
 import pl.znamirowski.hibernate.demo.entity.Instructor;
 import pl.znamirowski.hibernate.demo.entity.InstructorDetail;
 import pl.znamirowski.hibernate.demo.entity.Review;
+import pl.znamirowski.hibernate.demo.entity.Student;
 
 public class CreateCourseAndReviewsDemo {
 
@@ -18,6 +19,7 @@ public class CreateCourseAndReviewsDemo {
 								 .addAnnotatedClass(InstructorDetail.class)
 								 .addAnnotatedClass(Course.class)
 								 .addAnnotatedClass(Review.class)
+								 .addAnnotatedClass(Student.class)
 								 .buildSessionFactory();
 		
 		Session session = factory.getCurrentSession();
