@@ -4,6 +4,10 @@
 <html>
 <head>
 	<title>List customers</title>
+	
+	<link type="text/css"
+		  rel="stylesheet"
+		  href="${pageContext.request.contextPath}/resources/css/style.css" />
 </head>
 <body>
 
